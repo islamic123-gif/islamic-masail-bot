@@ -1,0 +1,11 @@
+app = "islamic-masail-bot"
+
+[env]
+  BOT_TOKEN = "8064099505:AAEX0yY-3RbmtlhcYtmeawWuff7BuT0AbpY"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[experimental]
+  allowed_public_ports = []
+  auto_rollback = true
